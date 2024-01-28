@@ -208,13 +208,17 @@ ul {
 
 /* ========== */
 /* =====Features===== */
+.features {
+padding-top: 120px;
+padding-bottom: 120px;    
+}
+
 .features-title {}
+
 
 .features-list {
 display: flex;
 gap: 40px;
-padding-top: 120px;
-padding-bottom: 120px;
 width: calc((100% - 72px) / 4);
 }
 
