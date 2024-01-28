@@ -249,6 +249,7 @@ gap: 24px;
 /* =====Capcion===== */
 .caption {
     background: #F4F4FD;
+    padding: 120px 0;
 }
 
 .caption-title {
@@ -258,15 +259,28 @@ gap: 24px;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.caption-list {}
+.caption-list {
+    display: flex;
+    gap: 24px;
+}
 
 .caption-item {
     background-color: #FFFFFF;
+    width: ;calc((100% - 72px) / 4);
 }
 
-.caption-picture {}
+.caption-picture {
+    display: block;
+    width: 264px;
+    height: 260px;
+}
+
+.capcion-container {
+    text-align: center
+}
 
 .caption-headline {
     color: #2E2F42;
@@ -274,6 +288,7 @@ gap: 24px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .caption-text {
@@ -281,6 +296,7 @@ gap: 24px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* ========== */
