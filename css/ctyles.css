@@ -59,7 +59,7 @@ ul {
     margin-left: 156px;
     width: 44px;
     height: 21px;
-    display: flex;  
+    display: flex;
 }
 
 .header-logo-web {
@@ -92,6 +92,7 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
     cursor: pointer;
+    padding: 20px 0;
 
 
 }
@@ -129,6 +130,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0;
 
 }
 
@@ -145,7 +147,6 @@ ul {
 /* ======Hero===== */
 .hero {
     background: #2E2F42;
-
 }
 
 .hero-container {
@@ -153,8 +154,6 @@ ul {
     padding-bottom: 292px;
     padding-left: 472px;
     padding-right: 472px;
-
-
 }
 
 .hero-title {
@@ -162,9 +161,8 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #ffffff;
-    margin-bottom: 48px;
+    margin: 0 auto;
     max-width: 496px;
 
 
@@ -179,13 +177,6 @@ ul {
     background: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
-
-
-
-
-
-
-
 }
 
 
