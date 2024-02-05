@@ -15,7 +15,7 @@ h6 {
     margin-bottom: 0;
 }
 
-ul {
+ul{
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
@@ -45,7 +45,11 @@ ul {
 
 /* ======Header===== */
 .header {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);;
     border-bottom: 1px solid #e7e9fc
+    
 }
 
 .header-container {
@@ -110,14 +114,31 @@ ul {
 
 
 }
-
-.header-menu-link:hover {
-    color: #404bbf;
+.header-menu-link.current {
+    color: #404BBF;
+    position: relative;
 }
 
-.header-menu-link:focus {
-    color: #404bbf;
+.header-menu-link.current::after {
+    content: '';
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    position: absolute;
+    display: block;
 }
+
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link.current:hover,
+.header-menu-link.current:focus {
+    color: #404BBF;
+}
+
 
 .adress-soc-list {
     font-style: normal;
@@ -138,6 +159,7 @@ ul {
 
 }
 
+
 .header-soc-link {
     color: #434455;
     font-size: 16px;
@@ -146,6 +168,23 @@ ul {
     text-decoration: none;
     padding: 24px 0;
 
+}
+
+.header-menu-link.current {
+    color: #404BBF;
+    position: relative;
+}
+
+.header-menu-link.current::after {
+    content: '';
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    position: absolute;
+    display: block;
 }
 
 .header-soc-link:hover {
